@@ -1,0 +1,1 @@
+/home/aitor/ros2/build/turtlesim/rosidl_typesupport_fastrtps_c/turtlesim/srv/kill__rosidl_typesupport_fastrtps_c.h

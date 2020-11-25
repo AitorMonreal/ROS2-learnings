@@ -1,0 +1,5 @@
+/home/aitor/ros2/install/turtlesim/share/turtlesim/images/eloquent.png
+/home/aitor/ros2/install/turtlesim/share/turtlesim/images/bouncy.png
+/home/aitor/ros2/install/turtlesim/share/turtlesim/images/crystal.png
+/home/aitor/ros2/install/turtlesim/share/turtlesim/images/ardent.png
+/home/aitor/ros2/install/turtlesim/share/turtlesim/images/dashing.png

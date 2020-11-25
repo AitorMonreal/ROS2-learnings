@@ -1,0 +1,19 @@
+[0.219s] Invoking command in '/home/aitor/ros2/build/my_python_package': PYTHONPATH=/home/aitor/ros2/install/my_python_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/aitor/ros2/install/my_python_package --editable --build-directory /home/aitor/ros2/build/my_python_package/build --no-deps install_data --install-dir /home/aitor/ros2/install/my_python_package
+[0.411s] running develop
+[0.494s] running egg_info
+[0.494s] writing my_python_package.egg-info/PKG-INFO
+[0.494s] writing dependency_links to my_python_package.egg-info/dependency_links.txt
+[0.494s] writing entry points to my_python_package.egg-info/entry_points.txt
+[0.495s] writing requirements to my_python_package.egg-info/requires.txt
+[0.495s] writing top-level names to my_python_package.egg-info/top_level.txt
+[0.519s] reading manifest file 'my_python_package.egg-info/SOURCES.txt'
+[0.520s] writing manifest file 'my_python_package.egg-info/SOURCES.txt'
+[0.521s] running build_ext
+[0.521s] Creating /home/aitor/ros2/install/my_python_package/lib/python3.6/site-packages/site.py
+[0.522s] Creating /home/aitor/ros2/install/my_python_package/lib/python3.6/site-packages/my-python-package.egg-link (link to .)
+[0.523s] 
+[0.523s] Installed /home/aitor/ros2/build/my_python_package
+[0.523s] running install_data
+[0.523s] copying resource/my_python_package -> /home/aitor/ros2/install/my_python_package/share/ament_index/resource_index/packages
+[0.523s] copying package.xml -> /home/aitor/ros2/install/my_python_package/share/my_python_package
+[0.546s] Invoked command in '/home/aitor/ros2/build/my_python_package' returned '0': PYTHONPATH=/home/aitor/ros2/install/my_python_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/aitor/ros2/install/my_python_package --editable --build-directory /home/aitor/ros2/build/my_python_package/build --no-deps install_data --install-dir /home/aitor/ros2/install/my_python_package

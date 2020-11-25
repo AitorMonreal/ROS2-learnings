@@ -1,0 +1,1 @@
+/home/aitor/ros2/week1/build/turtlesim/rosidl_generator_cpp/turtlesim/action/rotate_absolute__traits.hpp

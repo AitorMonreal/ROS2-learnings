@@ -1,0 +1,6 @@
+Invoking command in '/home/aitor/ros2/week1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/aitor/ros2/week1/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aitor/ros2/week1/install/turtlesim
+Invoked command in '/home/aitor/ros2/week1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/aitor/ros2/week1/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aitor/ros2/week1/install/turtlesim
+Invoking command in '/home/aitor/ros2/week1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/aitor/ros2/week1/build/turtlesim -- -j8 -l8
+Invoked command in '/home/aitor/ros2/week1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/aitor/ros2/week1/build/turtlesim -- -j8 -l8
+Invoking command in '/home/aitor/ros2/week1/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/aitor/ros2/week1/build/turtlesim --target install -- -j8 -l8
+Invoked command in '/home/aitor/ros2/week1/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/aitor/ros2/week1/build/turtlesim --target install -- -j8 -l8
