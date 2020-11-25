@@ -1,0 +1,21 @@
+[0.184s] Invoking command in '/home/aitor/ros2/week2_ws/src/my_python_package': PYTHONPATH=/home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/aitor/ros2/week2_ws/build/my_python_package/build install --prefix /home/aitor/ros2/week2_ws/install/my_python_package --record /home/aitor/ros2/week2_ws/build/my_python_package/install.log --single-version-externally-managed
+[0.343s] running egg_info
+[0.344s] writing ../../build/my_python_package/my_python_package.egg-info/PKG-INFO
+[0.344s] writing dependency_links to ../../build/my_python_package/my_python_package.egg-info/dependency_links.txt
+[0.344s] writing entry points to ../../build/my_python_package/my_python_package.egg-info/entry_points.txt
+[0.344s] writing requirements to ../../build/my_python_package/my_python_package.egg-info/requires.txt
+[0.345s] writing top-level names to ../../build/my_python_package/my_python_package.egg-info/top_level.txt
+[0.368s] reading manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[0.369s] writing manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[0.370s] running build
+[0.370s] running build_py
+[0.370s] running install
+[0.370s] running install_lib
+[0.371s] running install_data
+[0.372s] running install_egg_info
+[0.373s] removing '/home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages/my_python_package-0.0.0-py3.6.egg-info' (and everything under it)
+[0.373s] Copying ../../build/my_python_package/my_python_package.egg-info to /home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages/my_python_package-0.0.0-py3.6.egg-info
+[0.374s] running install_scripts
+[0.388s] Installing listener script to /home/aitor/ros2/week2_ws/install/my_python_package/lib/my_python_package
+[0.388s] writing list of installed files to '/home/aitor/ros2/week2_ws/build/my_python_package/install.log'
+[0.405s] Invoked command in '/home/aitor/ros2/week2_ws/src/my_python_package' returned '0': PYTHONPATH=/home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/aitor/ros2/week2_ws/build/my_python_package/build install --prefix /home/aitor/ros2/week2_ws/install/my_python_package --record /home/aitor/ros2/week2_ws/build/my_python_package/install.log --single-version-externally-managed

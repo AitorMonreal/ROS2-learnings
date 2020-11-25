@@ -1,0 +1,343 @@
+[0.000000] (-) TimerEvent: {}
+[0.000384] (my_python_package) JobQueued: {'identifier': 'my_python_package', 'dependencies': OrderedDict()}
+[0.000461] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000707] (my_python_package) JobStarted: {'identifier': 'my_python_package'}
+[0.010834] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.099844] (-) TimerEvent: {}
+[0.201891] (-) TimerEvent: {}
+[0.206810] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.207803] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/aitor/ros2/week1_ws/ros_tutorials/turtlesim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aitor/ros2/install/turtlesim'], 'cwd': '/home/aitor/ros2/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aitor'), ('LANGUAGE', 'en_GB:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1096'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/aitor/ros2/install/turtlesim/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/aitor'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/aitor'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/aitor/ros2/install:/home/aitor/ros2/week2_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'aitor'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '1073af92a97b9b2362160345857488761100000010010007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'aitor'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aitor-ZenBook:@/tmp/.ICE-unix/1001,unix/aitor-ZenBook:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9b25309_46c0_4af4_9437_ee92049fe055'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.304'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/aitor/ros2/week2_ws/install/my_python_package:/home/aitor/ros2/install/turtlesim:/home/aitor/ros2/install/my_python_package:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '137'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aitor/ros2/build/turtlesim'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages:/home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages:/home/aitor/ros2/install/my_python_package/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/aitor/ros2/install/turtlesim:/home/aitor/ros2/week2_ws/install/my_python_package:/home/aitor/ros2/install/my_python_package:/opt/ros/eloquent')]), 'shell': False}
+[0.217290] (my_python_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/aitor/ros2/install/my_python_package', '--editable', '--build-directory', '/home/aitor/ros2/build/my_python_package/build', '--no-deps', 'install_data', '--install-dir', '/home/aitor/ros2/install/my_python_package'], 'cwd': '/home/aitor/ros2/build/my_python_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aitor', 'LANGUAGE': 'en_GB:en', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1096', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/home/aitor/ros2/install/turtlesim/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '1', 'OLDPWD': '/home/aitor', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/aitor', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/aitor/ros2/install:/home/aitor/ros2/week2_ws/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'aitor', 'GTK_IM_MODULE': 'ibus', 'DESKTOP_AUTOSTART_ID': '1073af92a97b9b2362160345857488761100000010010007', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'USERNAME': 'aitor', 'XDG_SESSION_ID': '1', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '1', 'PATH': '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/aitor-ZenBook:@/tmp/.ICE-unix/1001,unix/aitor-ZenBook:/tmp/.ICE-unix/1001', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c9b25309_46c0_4af4_9437_ee92049fe055', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.304', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/aitor/ros2/week2_ws/install/my_python_package:/home/aitor/ros2/install/turtlesim:/home/aitor/ros2/install/my_python_package:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '137', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aitor/ros2/build/my_python_package', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYTHONPATH': '/home/aitor/ros2/install/my_python_package/lib/python3.6/site-packages:/home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages:/home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages:/home/aitor/ros2/install/my_python_package/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'COLCON': '1', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/aitor/ros2/install/turtlesim'}, 'shell': False}
+[0.223966] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.246329] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.246563] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.301998] (-) TimerEvent: {}
+[0.391589] (turtlesim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.397651] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 0.7.2 (/opt/ros/eloquent/share/ament_index_cpp/cmake)\n'}
+[0.400533] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 0.8.1 (/opt/ros/eloquent/share/geometry_msgs/cmake)\n'}
+[0.402065] (-) TimerEvent: {}
+[0.407813] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[0.411404] (my_python_package) StdoutLine: {'line': b'running develop\n'}
+[0.446007] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[0.455814] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[0.456912] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.482335] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 0.8.4 (/opt/ros/eloquent/share/rclcpp_action/cmake)\n'}
+[0.494504] (my_python_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.494859] (my_python_package) StdoutLine: {'line': b'writing my_python_package.egg-info/PKG-INFO\n'}
+[0.495041] (my_python_package) StdoutLine: {'line': b'writing dependency_links to my_python_package.egg-info/dependency_links.txt\n'}
+[0.495152] (my_python_package) StdoutLine: {'line': b'writing entry points to my_python_package.egg-info/entry_points.txt\n'}
+[0.495283] (my_python_package) StdoutLine: {'line': b'writing requirements to my_python_package.egg-info/requires.txt\n'}
+[0.495404] (my_python_package) StdoutLine: {'line': b'writing top-level names to my_python_package.egg-info/top_level.txt\n'}
+[0.502148] (-) TimerEvent: {}
+[0.519669] (my_python_package) StdoutLine: {'line': b"reading manifest file 'my_python_package.egg-info/SOURCES.txt'\n"}
+[0.520426] (my_python_package) StdoutLine: {'line': b"writing manifest file 'my_python_package.egg-info/SOURCES.txt'\n"}
+[0.521688] (my_python_package) StdoutLine: {'line': b'running build_ext\n'}
+[0.521913] (my_python_package) StdoutLine: {'line': b'Creating /home/aitor/ros2/install/my_python_package/lib/python3.6/site-packages/site.py\n'}
+[0.522889] (my_python_package) StdoutLine: {'line': b'Creating /home/aitor/ros2/install/my_python_package/lib/python3.6/site-packages/my-python-package.egg-link (link to .)\n'}
+[0.523578] (my_python_package) StdoutLine: {'line': b'\n'}
+[0.523771] (my_python_package) StdoutLine: {'line': b'Installed /home/aitor/ros2/build/my_python_package\n'}
+[0.523936] (my_python_package) StdoutLine: {'line': b'running install_data\n'}
+[0.524065] (my_python_package) StdoutLine: {'line': b'copying resource/my_python_package -> /home/aitor/ros2/install/my_python_package/share/ament_index/resource_index/packages\n'}
+[0.524192] (my_python_package) StdoutLine: {'line': b'copying package.xml -> /home/aitor/ros2/install/my_python_package/share/my_python_package\n'}
+[0.538195] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[0.546822] (my_python_package) CommandEnded: {'returncode': 0}
+[0.569581] (my_python_package) JobEnded: {'identifier': 'my_python_package', 'rc': 0}
+[0.602272] (-) TimerEvent: {}
+[0.609370] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 0.8.1 (/opt/ros/eloquent/share/std_srvs/cmake)\n'}
+[0.639175] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[0.702352] (-) TimerEvent: {}
+[0.802628] (-) TimerEvent: {}
+[0.815923] (turtlesim) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[0.826595] (turtlesim) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[0.902738] (-) TimerEvent: {}
+[0.950775] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[0.951042] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)\n'}
+[0.975451] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.975657] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[0.975741] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[1.002840] (-) TimerEvent: {}
+[1.103164] (-) TimerEvent: {}
+[1.203476] (-) TimerEvent: {}
+[1.274445] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.303592] (-) TimerEvent: {}
+[1.403869] (-) TimerEvent: {}
+[1.436463] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.440107] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/aitor/ros2/build/turtlesim\n'}
+[1.445831] (turtlesim) CommandEnded: {'returncode': 0}
+[1.448865] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[1.448939] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aitor/ros2/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/aitor/ros2/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aitor'), ('LANGUAGE', 'en_GB:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1096'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/aitor/ros2/install/turtlesim/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/aitor'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/aitor'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/aitor/ros2/install:/home/aitor/ros2/week2_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'aitor'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '1073af92a97b9b2362160345857488761100000010010007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'aitor'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aitor-ZenBook:@/tmp/.ICE-unix/1001,unix/aitor-ZenBook:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9b25309_46c0_4af4_9437_ee92049fe055'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.304'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/aitor/ros2/week2_ws/install/my_python_package:/home/aitor/ros2/install/turtlesim:/home/aitor/ros2/install/my_python_package:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '137'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aitor/ros2/build/turtlesim'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages:/home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages:/home/aitor/ros2/install/my_python_package/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/aitor/ros2/install/turtlesim:/home/aitor/ros2/week2_ws/install/my_python_package:/home/aitor/ros2/install/my_python_package:/opt/ros/eloquent')]), 'shell': False}
+[1.496742] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[1.498565] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[1.504000] (-) TimerEvent: {}
+[1.524868] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.529902] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.539026] (turtlesim) StdoutLine: {'line': b'[ 13%] Built target turtlesim__rosidl_generator_c\n'}
+[1.576689] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.604104] (-) TimerEvent: {}
+[1.610205] (turtlesim) StdoutLine: {'line': b'[ 23%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[1.620876] (turtlesim) StdoutLine: {'line': b'[ 32%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[1.634751] (turtlesim) StdoutLine: {'line': b'[ 42%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[1.659864] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.660054] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.704203] (-) TimerEvent: {}
+[1.748828] (turtlesim) StdoutLine: {'line': b'[ 53%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[1.753517] (turtlesim) StdoutLine: {'line': b'[ 62%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[1.777168] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.804320] (-) TimerEvent: {}
+[1.827581] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtlesim__rosidl_typesupport_c\n'}
+[1.845013] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtlesim\n'}
+[1.869757] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtlesim__py\n'}
+[1.883432] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[1.884273] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[1.888111] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[1.904436] (-) TimerEvent: {}
+[1.904820] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[1.933502] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/turtlesim/libturtlesim__python.so\x1b[0m\n'}
+[2.004604] (-) TimerEvent: {}
+[2.075542] (turtlesim) StdoutLine: {'line': b'[ 87%] Built target turtlesim__python\n'}
+[2.104744] (-) TimerEvent: {}
+[2.143356] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.170320] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.204883] (-) TimerEvent: {}
+[2.305421] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.305714] (-) TimerEvent: {}
+[2.337568] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[2.368428] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtle_teleop_key\n'}
+[2.405863] (-) TimerEvent: {}
+[2.472648] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target mimic\n'}
+[2.476430] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target draw_square\n'}
+[2.505958] (-) TimerEvent: {}
+[2.606271] (-) TimerEvent: {}
+[2.706689] (-) TimerEvent: {}
+[2.807093] (-) TimerEvent: {}
+[2.907525] (-) TimerEvent: {}
+[3.007954] (-) TimerEvent: {}
+[3.108377] (-) TimerEvent: {}
+[3.208794] (-) TimerEvent: {}
+[3.309150] (-) TimerEvent: {}
+[3.409545] (-) TimerEvent: {}
+[3.509858] (-) TimerEvent: {}
+[3.610181] (-) TimerEvent: {}
+[3.680019] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[3.689727] (turtlesim) CommandEnded: {'returncode': 0}
+[3.710292] (-) TimerEvent: {}
+[3.810246] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[3.810391] (-) TimerEvent: {}
+[3.819280] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aitor/ros2/build/turtlesim', '--target', 'install', '--', '-j8', '-l8'], 'cwd': '/home/aitor/ros2/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aitor'), ('LANGUAGE', 'en_GB:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1096'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/aitor/ros2/install/turtlesim/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/aitor'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/aitor'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/aitor/ros2/install:/home/aitor/ros2/week2_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'aitor'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '1073af92a97b9b2362160345857488761100000010010007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'aitor'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aitor-ZenBook:@/tmp/.ICE-unix/1001,unix/aitor-ZenBook:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9b25309_46c0_4af4_9437_ee92049fe055'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.304'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/aitor/ros2/week2_ws/install/my_python_package:/home/aitor/ros2/install/turtlesim:/home/aitor/ros2/install/my_python_package:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '137'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aitor/ros2/build/turtlesim'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages:/home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages:/home/aitor/ros2/install/my_python_package/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/aitor/ros2/install/turtlesim:/home/aitor/ros2/week2_ws/install/my_python_package:/home/aitor/ros2/install/my_python_package:/opt/ros/eloquent')]), 'shell': False}
+[3.865321] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[3.868618] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[3.893541] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[3.896252] (turtlesim) StdoutLine: {'line': b'[ 36%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[3.896471] (turtlesim) StdoutLine: {'line': b'[ 42%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[3.910517] (-) TimerEvent: {}
+[3.925597] (turtlesim) StdoutLine: {'line': b'[ 60%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[3.925849] (turtlesim) StdoutLine: {'line': b'[ 62%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[3.949256] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtlesim__rosidl_typesupport_c\n'}
+[3.966989] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtlesim\n'}
+[3.996597] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtlesim__py\n'}
+[4.002189] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target draw_square\n'}
+[4.003427] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target mimic\n'}
+[4.003620] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtle_teleop_key\n'}
+[4.010607] (-) TimerEvent: {}
+[4.020849] (turtlesim) StdoutLine: {'line': b'[ 86%] Built target turtlesim_node\n'}
+[4.026451] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__python\n'}
+[4.049217] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[4.049408] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.069101] (turtlesim) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[4.077578] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.078144] (turtlesim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.078384] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[4.086353] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[4.093877] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__struct.hpp\n'}
+[4.101591] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__traits.hpp\n'}
+[4.109011] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[4.110683] (-) TimerEvent: {}
+[4.116914] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/color__struct.hpp\n'}
+[4.124989] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/color__traits.hpp\n'}
+[4.132714] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[4.140692] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/pose__struct.hpp\n'}
+[4.148866] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/pose__traits.hpp\n'}
+[4.156867] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[4.164819] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/kill__struct.hpp\n'}
+[4.172984] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/kill__traits.hpp\n'}
+[4.181104] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[4.189148] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/set_pen__struct.hpp\n'}
+[4.197188] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/set_pen__traits.hpp\n'}
+[4.205722] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[4.210782] (-) TimerEvent: {}
+[4.214666] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/spawn__struct.hpp\n'}
+[4.222808] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/spawn__traits.hpp\n'}
+[4.231278] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[4.239723] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__struct.hpp\n'}
+[4.247846] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__traits.hpp\n'}
+[4.256044] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[4.264361] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__struct.hpp\n'}
+[4.272388] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__traits.hpp\n'}
+[4.281103] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[4.289298] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__functions.h\n'}
+[4.297342] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__struct.h\n'}
+[4.305767] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__type_support.h\n'}
+[4.310881] (-) TimerEvent: {}
+[4.313491] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[4.324622] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/color__functions.h\n'}
+[4.332836] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/color__struct.h\n'}
+[4.341475] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/color__type_support.h\n'}
+[4.349834] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[4.357940] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/pose__functions.h\n'}
+[4.365918] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/pose__struct.h\n'}
+[4.373942] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/pose__type_support.h\n'}
+[4.382009] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.390491] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[4.398751] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/kill__functions.h\n'}
+[4.408782] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/kill__struct.h\n'}
+[4.410958] (-) TimerEvent: {}
+[4.417262] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/kill__type_support.h\n'}
+[4.425482] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[4.433328] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/set_pen__functions.h\n'}
+[4.441357] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/set_pen__struct.h\n'}
+[4.449203] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/set_pen__type_support.h\n'}
+[4.456762] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[4.464803] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/spawn__functions.h\n'}
+[4.473262] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/spawn__struct.h\n'}
+[4.481423] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/spawn__type_support.h\n'}
+[4.492385] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[4.503956] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__functions.h\n'}
+[4.511058] (-) TimerEvent: {}
+[4.513026] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__struct.h\n'}
+[4.521139] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__type_support.h\n'}
+[4.529513] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[4.537621] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__functions.h\n'}
+[4.549086] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__struct.h\n'}
+[4.557135] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__type_support.h\n'}
+[4.567567] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[4.575745] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[4.584102] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[4.592770] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[4.601463] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[4.610366] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[4.611117] (-) TimerEvent: {}
+[4.618502] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/color__rosidl_typesupport_introspection_c.h\n'}
+[4.627055] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/pose__rosidl_typesupport_introspection_c.h\n'}
+[4.635530] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.643774] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/kill__rosidl_typesupport_introspection_c.h\n'}
+[4.651988] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[4.660281] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/spawn__rosidl_typesupport_introspection_c.h\n'}
+[4.668170] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[4.676305] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[4.684278] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[4.696168] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.703955] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.711230] (-) TimerEvent: {}
+[4.712003] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.719974] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.728235] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.736292] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.744987] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.753121] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.763919] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[4.772662] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[4.783758] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/color__rosidl_typesupport_fastrtps_c.h\n'}
+[4.794980] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[4.806276] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.811321] (-) TimerEvent: {}
+[4.814092] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[4.822038] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[4.830334] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[4.838401] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[4.849628] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[4.857977] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[4.867167] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/action/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.875780] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.883814] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.891832] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.899830] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.908694] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.911410] (-) TimerEvent: {}
+[4.916893] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.925009] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.936081] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/include/turtlesim/srv/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.945867] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.954077] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[4.962830] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[4.971187] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/__init__.py\n'}
+[4.980061] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/action/__init__.py\n'}
+[4.987904] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[4.996047] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/msg/__init__.py\n'}
+[5.003621] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/msg/_color.py\n'}
+[5.011215] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/msg/_pose.py\n'}
+[5.011479] (-) TimerEvent: {}
+[5.019035] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/__init__.py\n'}
+[5.026891] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_kill.py\n'}
+[5.034871] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_set_pen.py\n'}
+[5.043009] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_spawn.py\n'}
+[5.050754] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[5.058154] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[5.065885] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[5.074192] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[5.082472] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/libturtlesim__python.so\n'}
+[5.090474] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[5.098573] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[5.106482] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[5.111573] (-) TimerEvent: {}
+[5.114228] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[5.121803] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[5.129799] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[5.137511] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[5.146078] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[5.154252] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[5.162451] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[5.170381] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[5.178409] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[5.185995] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[5.194231] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[5.202366] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[5.210550] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[5.211653] (-) TimerEvent: {}
+[5.219167] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[5.227519] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[5.235690] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[5.244288] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[5.252519] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[5.260671] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[5.269698] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[5.278028] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[5.286205] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[5.294359] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[5.302774] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[5.311286] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[5.311717] (-) TimerEvent: {}
+[5.318989] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/turtlesim/draw_square\n'}
+[5.327156] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/lib/turtlesim/mimic\n'}
+[5.336913] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[5.345304] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[5.353229] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[5.361051] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[5.369011] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[5.376745] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[5.384693] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[5.392518] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[5.400580] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[5.408526] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[5.411801] (-) TimerEvent: {}
+[5.416082] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[5.424060] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/package.dsv\n'}
+[5.432189] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[5.441086] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[5.449723] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.457395] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.465245] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.473364] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[5.481042] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[5.488926] (turtlesim) StdoutLine: {'line': b'-- Symlinking: /home/aitor/ros2/install/turtlesim/share/turtlesim/package.xml\n'}
+[5.511933] (-) TimerEvent: {}
+[5.522165] (turtlesim) StdoutLine: {'line': b"Compiling '/home/aitor/ros2/install/turtlesim/lib/python3.6/site-packages/turtlesim/__init__.py'...\n"}
+[5.525933] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aitor/ros2/install/turtlesim/share/turtlesim/images\n'}
+[5.526118] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aitor/ros2/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[5.526187] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aitor/ros2/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[5.526247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aitor/ros2/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[5.526303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aitor/ros2/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[5.526360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/aitor/ros2/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[5.528837] (turtlesim) CommandEnded: {'returncode': 0}
+[5.612083] (-) TimerEvent: {}
+[5.671673] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[5.672803] (-) EventReactorShutdown: {}

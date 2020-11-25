@@ -1,0 +1,1 @@
+/home/aitor/ros2/build/turtlesim/rosidl_typesupport_fastrtps_cpp/turtlesim/action/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp

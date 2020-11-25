@@ -1,0 +1,1 @@
+/home/aitor/ros2/week1/build/turtlesim/rosidl_generator_c/turtlesim/action/rotate_absolute__type_support.h

@@ -1,0 +1,1 @@
+/home/aitor/ros2/week1/build/turtlesim/rosidl_typesupport_introspection_c/turtlesim/srv/spawn__rosidl_typesupport_introspection_c.h

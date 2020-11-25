@@ -1,0 +1,1 @@
+/home/aitor/ros2/build/turtlesim/rosidl_typesupport_introspection_c/turtlesim/srv/kill__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,39 @@
+[0.184s] Invoking command in '/home/aitor/ros2/week2_ws/src/my_python_package': PYTHONPATH=/home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/aitor/ros2/week2_ws/build/my_python_package/build install --prefix /home/aitor/ros2/week2_ws/install/my_python_package --record /home/aitor/ros2/week2_ws/build/my_python_package/install.log --single-version-externally-managed
+[0.340s] running egg_info
+[0.340s] creating ../../build/my_python_package/my_python_package.egg-info
+[0.341s] writing ../../build/my_python_package/my_python_package.egg-info/PKG-INFO
+[0.341s] writing dependency_links to ../../build/my_python_package/my_python_package.egg-info/dependency_links.txt
+[0.341s] writing entry points to ../../build/my_python_package/my_python_package.egg-info/entry_points.txt
+[0.341s] writing requirements to ../../build/my_python_package/my_python_package.egg-info/requires.txt
+[0.341s] writing top-level names to ../../build/my_python_package/my_python_package.egg-info/top_level.txt
+[0.341s] writing manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[0.366s] reading manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[0.367s] writing manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[0.367s] running build
+[0.367s] running build_py
+[0.367s] creating /home/aitor/ros2/week2_ws/build/my_python_package/build
+[0.367s] creating /home/aitor/ros2/week2_ws/build/my_python_package/build/lib
+[0.367s] creating /home/aitor/ros2/week2_ws/build/my_python_package/build/lib/my_python_package
+[0.367s] copying my_python_package/subscriber_and_publisher.py -> /home/aitor/ros2/week2_ws/build/my_python_package/build/lib/my_python_package
+[0.367s] copying my_python_package/subscriber_member_function.py -> /home/aitor/ros2/week2_ws/build/my_python_package/build/lib/my_python_package
+[0.367s] copying my_python_package/__init__.py -> /home/aitor/ros2/week2_ws/build/my_python_package/build/lib/my_python_package
+[0.367s] running install
+[0.368s] running install_lib
+[0.368s] creating /home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages/my_python_package
+[0.369s] copying /home/aitor/ros2/week2_ws/build/my_python_package/build/lib/my_python_package/subscriber_and_publisher.py -> /home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages/my_python_package
+[0.369s] copying /home/aitor/ros2/week2_ws/build/my_python_package/build/lib/my_python_package/subscriber_member_function.py -> /home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages/my_python_package
+[0.369s] copying /home/aitor/ros2/week2_ws/build/my_python_package/build/lib/my_python_package/__init__.py -> /home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages/my_python_package
+[0.369s] byte-compiling /home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages/my_python_package/subscriber_and_publisher.py to subscriber_and_publisher.cpython-36.pyc
+[0.369s] byte-compiling /home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages/my_python_package/subscriber_member_function.py to subscriber_member_function.cpython-36.pyc
+[0.369s] byte-compiling /home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages/my_python_package/__init__.py to __init__.cpython-36.pyc
+[0.369s] running install_data
+[0.370s] creating /home/aitor/ros2/week2_ws/install/my_python_package/share/ament_index
+[0.370s] creating /home/aitor/ros2/week2_ws/install/my_python_package/share/ament_index/resource_index
+[0.370s] creating /home/aitor/ros2/week2_ws/install/my_python_package/share/ament_index/resource_index/packages
+[0.370s] copying resource/my_python_package -> /home/aitor/ros2/week2_ws/install/my_python_package/share/ament_index/resource_index/packages
+[0.370s] copying package.xml -> /home/aitor/ros2/week2_ws/install/my_python_package/share/my_python_package
+[0.370s] running install_egg_info
+[0.372s] Copying ../../build/my_python_package/my_python_package.egg-info to /home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages/my_python_package-0.0.0-py3.6.egg-info
+[0.373s] running install_scripts
+[0.389s] writing list of installed files to '/home/aitor/ros2/week2_ws/build/my_python_package/install.log'
+[0.406s] Invoked command in '/home/aitor/ros2/week2_ws/src/my_python_package' returned '0': PYTHONPATH=/home/aitor/ros2/week2_ws/install/my_python_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/aitor/ros2/week2_ws/build/my_python_package/build install --prefix /home/aitor/ros2/week2_ws/install/my_python_package --record /home/aitor/ros2/week2_ws/build/my_python_package/install.log --single-version-externally-managed

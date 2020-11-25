@@ -1,0 +1,3 @@
+[console_scripts]
+listener = my_python_package.subscriber_member_function:main
+

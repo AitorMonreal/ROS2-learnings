@@ -1,0 +1,1 @@
+/home/aitor/ros2/build/turtlesim/ament_cmake_core/turtlesimConfig-version.cmake
